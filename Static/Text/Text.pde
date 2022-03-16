@@ -1,9 +1,7 @@
-//Global Variables
+String title = "Wahhh!";
 //
-void setup() {}//End setup
+//Display Geometry, Display orientation: landscape, portrait, or square
+size (500, 600); //fullscreen(); //displayWidth & displayHeight
 //
-void draw() {}//End draw
-//
-void keyPressed() {}//End keyPressed
-//
-void mousePressed() {}//End mousePressed
+//Layout our text space and typographical features
+rect();
