@@ -1,9 +1,9 @@
 //Global Variables
 //
-void setup() {}
+void setup() {}//End setup
 //
-void draw() {}
+void draw() {}//End draw
 //
-void keyPressed() {}
+void keyPressed() {}//End keyPressed
 //
-void mousePressed() {}
+void mousePressed() {}//End mousePressed
