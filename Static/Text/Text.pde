@@ -1,6 +1,7 @@
 String title = "Wahhh!";
 float titleX, titleY, titleWidth, titleHeight;
 PFont titleFont;
+color green=#107615, resetDefaultInk=#FFFFFF;
 //
 //Display Geometry, Display orientation: landscape, portrait, or square
 fullScreen(); //size (500, 600);  //displayWidth & displayHeight
@@ -20,10 +21,10 @@ titleFont = createFont("MV Boli", 55); //Verify the font exists in ProcessingJav
 //Layout our text space and typographical features
 rect(titleX, titleY, titleWidth, titleHeight);
 //Drawing Text
-fill(); //Ink, hexidecimal copied from Color Selector
-textAlign(); //Align X&Y, see Processing.org / Reference
+fill(green); //Ink, hexidecimal copied from Color Selector
+textAlign(CENTER, CENTER); //Align X&Y, see Processing.org / Reference
 //Values: [ LEFT | CENTER | RIGHT ] & [ TOP | CENTER | BOTTOM | BASEMENT ]
-textFont(); //Change the number until it fits
-text();
+textFont(titleFont, 55); //Change the number until it fits
+text(title, titleX, titleY, titleWidth, titleHeight);
 fill(resetDefaultInk);
 //End Program
