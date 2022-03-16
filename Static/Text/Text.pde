@@ -1,8 +1,9 @@
 String title = "Wahhh!";
-
+float titleX, titleY, titleWidth, titleHeight;
 //
 //Display Geometry, Display orientation: landscape, portrait, or square
-size (500, 600); //fullscreen(); //displayWidth & displayHeight
+fullScreen(); //size (500, 600);  //displayWidth & displayHeight
+println(displayWidth, displayHeight);
 //Population
 titleX = displayWidth*1/5;
 titleY = displayHeight*1/10;
