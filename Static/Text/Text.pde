@@ -4,4 +4,4 @@ String title = "Wahhh!";
 size (500, 600); //fullscreen(); //displayWidth & displayHeight
 //
 //Layout our text space and typographical features
-rect();
+rect(titleX, titleY, titleWidth, titleHeight);
